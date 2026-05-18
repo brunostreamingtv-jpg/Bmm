@@ -540,23 +540,25 @@
   <p style="color:#888;margin-bottom:10px">Streaming moderno estilo Netflix.</p>
   <p style="color:#e50914;font-weight:700;margin-bottom:25px">📞 WhatsApp: (67) 99201-0343</p><button class="btn" onclick="suporte()">📱 WHATSAPP SUPORTE</button>
 
-</footer><script>
+</footer>
 
-  function ativar(){
-    alert('BM STREAMING ativado com sucesso!');
-  }
+  <script>
+function ativar(){
+  alert('BM STREAMING ativado com sucesso!');
+}
 
-  function demo(){
-    alert('Demonstração iniciando...');
-  }
+function demo(){
+  alert('Demonstração iniciando...');
+}
 
-  function suporte(){
-    window.open('https://wa.me/5567992010343','_blank');
-  }
+function suporte(){
+  window.open('https://wa.me/5567992010343','_blank');
+}
 
-  function plano(nome){
-    alert('Plano selecionado: ' + nome);
-  }
+function plano(nome){
+  alert('Plano selecionado: ' + nome);
+}
+</script>
 
-</script></body>
+</body>
 </html>
