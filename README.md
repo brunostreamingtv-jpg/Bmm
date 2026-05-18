@@ -537,7 +537,8 @@
   </div>
 </section><footer>
   <h2>BM STREAMING</h2>
-  <p style="color:#888;margin-bottom:25px">Streaming moderno estilo Netflix.</p><button class="btn" onclick="suporte()">📱 SUPORTE</button>
+  <p style="color:#888;margin-bottom:10px">Streaming moderno estilo Netflix.</p>
+  <p style="color:#e50914;font-weight:700;margin-bottom:25px">📞 WhatsApp: (67) 99201-0343</p><button class="btn" onclick="suporte()">📱 WHATSAPP SUPORTE</button>
 
 </footer><script>
 
@@ -550,7 +551,7 @@
   }
 
   function suporte(){
-    alert('Suporte BM STREAMING');
+    window.open('https://wa.me/5567992010343','_blank');
   }
 
   function plano(nome){
